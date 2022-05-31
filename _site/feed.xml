@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title>끄적임</title>
+        <description>끄적거림이 도움이 되기까지 가보자 가보자!</description>
+        <link>https://weleek.github.io/</link>
+        <atom:link href="https://weleek.github.io/feed.xml" rel="self" type="application/rss+xml"/>
+        <pubDate>Tue, 31 May 2022 10:21:34 +0900</pubDate>
+        <lastBuildDate>Tue, 31 May 2022 10:21:34 +0900</lastBuildDate>
+        <generator>Jekyll v4.0.1</generator>
+        
+            <item>
+                <title>Java가 jar를 실행할때</title>
+                <description>&lt;p&gt;일반적으로 java의 동작과정은 jvm 이 클래스로더를 통해 java의 클래스파일 코드들을 읽어들여 동작하도록 되어 있다고 나와있다.&lt;/p&gt;
+
+&lt;!--more--&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;jar 파일의 경우 압축 파일이므로 초기 구동시 의존성이 정의된 메니페스트 파일이나 기타 패키지가 정의된 디렉토리에 접근 하는 것 자체가 jar 파일의 압축을 해제 하여 폴더에서 실행하는 것보다 느리다.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;del&gt;jar 파일을 압축 해제해서 사용할 정도로 어플리케이션이 실행되는 빈도수가 높고 초기 구동시간이 빨라야 한다면 과감히 java를 포기하는게….&lt;/del&gt;&lt;/p&gt;
+</description>
+                <pubDate>Mon, 30 May 2022 00:00:00 +0900</pubDate>
+                <link>https://weleek.github.io/Execute-jar-on-JVM</link>
+                <guid isPermaLink="true">https://weleek.github.io/Execute-jar-on-JVM</guid>
+                
+                <category>tips</category>
+                
+                <category>java</category>
+                
+                
+            </item>
+        
+    </channel>
+</rss>
